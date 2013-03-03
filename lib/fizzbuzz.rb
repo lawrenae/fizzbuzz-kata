@@ -1,5 +1,5 @@
 class FizzBuzz
     def print(num)
-        '1'
+        num.to_s
     end
 end
