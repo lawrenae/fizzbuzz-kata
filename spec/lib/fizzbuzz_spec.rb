@@ -7,4 +7,5 @@ describe 'FizzBuzz' do
     specify { buzzer.print(2).should == '2' }
     specify { buzzer.print(3).should == 'Fizz' }
     specify { buzzer.print(5).should == 'Buzz' }
+    specify { buzzer.print(6).should == 'Fizz' }
 end
