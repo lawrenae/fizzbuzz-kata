@@ -7,4 +7,12 @@ class FizzBuzz
 
         return result
     end
+
+    def print_out range
+        result = Array.new
+        range.each do |n|
+            result << print(n)
+        end
+        return result
+    end
 end
